@@ -55,7 +55,7 @@ def month_profit_trace(profit, reach, make_figs=True):
         print('Invalid Values') 
         print('Try Again with Correct Values')
 
-profit= np.array([100, 200, 300, 400]) 
-reach = np.array([-5, 20 ,24 ,33])             
+profit= np.array([150, 250, 350, 450]) 
+reach = np.array([12, 23 ,60 ,72])             
 
 month_profit_trace(profit, reach, make_figs=False) 
